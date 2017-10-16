@@ -1,24 +1,7 @@
 
 //******************************************************************************
-//  MSP430FR5x9x
-//      Extra Work
-//
-//  Description: 2 players will compete to find out who press his button faster.
-//                  If player 1 lead, the LED will light up and vice versa.
-//  ACLK = n/a, MCLK = SMCLK = default DCO
-//
-//           MSP430FR5994
-//         ---------------
-//     /|\|               |
-//      | |               |
-//      --|RST            |
-//        |               |
-//        |           P1.0|-->LED
-//
-//   Thai Nghiem (with help of Matthew and Ardti Pranvoku)
-//   Rowan Universiy
-//   October 2017
-//   Built with IAR Embedded Workbench V6.30 & Code Composer Studio V6.1
+//   Ardit Pranvoku Collab with Thai Nghiem and Matt Rodriguez
+//   Built with CCSv4 and IAR Embedded Workbench Version: 4.21
 //******************************************************************************
 #include <msp430.h>
 

@@ -1,21 +1,5 @@
 //******************************************************************************
-//   MSP430FR6989 Demo
-//      Timer A Interrupt
-//
-//   Description: Timer A will control the rate at which the LEDs blink
-//   ACLK = 32.768kHz, MCLK = SMCLK = default DCO~1MHz
-//
-//                MSP430
-//             -----------------
-//         /|\|                 |
-//          | |                 |
-//          --|RST              |
-//            |                 |
-//            |             P1.0|-->LED
-//
-//   Thai Nghiem
-//   Rowan University
-//   September 2017
+//   Ardit Pranvoku Collab with Thai Nghiem
 //   Built with CCSv4 and IAR Embedded Workbench Version: 4.21
 //******************************************************************************
 #include <msp430.h>

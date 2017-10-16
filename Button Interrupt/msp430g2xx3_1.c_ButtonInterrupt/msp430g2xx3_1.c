@@ -1,21 +1,5 @@
 //******************************************************************************
-//   MSP430G2xxx Demo
-//      Button Interrupt
-//
-//   Description: Inturrupt a ongoing process by pushing a button
-//   ACLK = 32.768kHz, MCLK = SMCLK = default DCO~1MHz
-//
-//                MSP430
-//             -----------------
-//         /|\|                 |
-//          | |                 |
-//          --|RST              |
-//            |                 |
-//            |             P1.0|-->LED
-//
-//   Thai Nghiem
-//   Rowan University
-//   September 2017
+//   Ardit Pranvoku Collab with Thai Nghiem
 //   Built with CCSv4 and IAR Embedded Workbench Version: 4.21
 //******************************************************************************
 #include <msp430.h>

@@ -1,22 +1,5 @@
 //******************************************************************************
-//   MSP430F552x Demo
-//      Button Based Interrupt
-//
-//   Description: Interrupt a ongoing process by pushing a button. The delay time
-//              is based upon how long the button is pressed.
-//   ACLK = 32.768kHz, MCLK = SMCLK = default DCO~1MHz
-//
-//                MSP430F552x
-//             -----------------
-//         /|\|                 |
-//          | |                 |
-//          --|RST              |
-//            |                 |
-//            |             P1.0|-->LED
-//
-//   Thai Nghiema
-//   Rowan University
-//   September 2017
+//   Ardit Pranvoku Collab with Thai Nghiem
 //   Built with CCSv4 and IAR Embedded Workbench Version: 4.21
 //******************************************************************************
 #include <msp430.h>
